@@ -13,11 +13,11 @@ def create_cig_kofte_song():
 		str: The path of the output audio file.
 	"""
 	# Define the melody notes (frequencies in Hz)
-	melody_freqs = [261.63, 293.66, 329.63, 349.23, 392.00, 440.00, 493.88, 523.25]  # C4 to C5 in Hz (pop music)
+	melody_freqs = [161.63, 193.66, 229.63, 249.23, 292.00, 340.00, 393.88, 423.25]  # C4 to C5 in Hz (pop music)
 	melody_duration = 1  # Duration of each note in seconds
 
 	# Create the melody sound
-	sample_rate = 28100
+	sample_rate = 29100
 	melody = []
 
 	for freq in melody_freqs:
