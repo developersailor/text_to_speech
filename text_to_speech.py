@@ -13,7 +13,7 @@ def convert_text_to_speech(text, language='tr', output_filename="speech.mp3", sl
     Returns:
             None
     """
-    tts = gTTS(text, lang=language, slow=slow)
+    tts = gTTS(text, lang=language, slow=slow, tld='com', lang_check=True)
     tts.save(output_filename)
 
 # Example usage

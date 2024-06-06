@@ -2,3 +2,5 @@ numpy
 scipy
 gtts
 pydub
+SpeechRecognition
+pyaudio
